@@ -1,0 +1,32 @@
+.selected {
+  color: red;
+}
+
+.numpicker-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.numpicker-header {
+  margin: 5px 0;
+  padding-left: 12px;
+  text-align: left;
+  color: #19A2A6;
+}
+
+.custom-option-input-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 6px 12px;
+}
+
+.custom-option-input-close-btn {
+  position: absolute !important;
+  top: 3px;
+  right: 3px;
+}
+
+.reset-numpicker-btn {
+  position: absolute !important;
+  top: 3px;
+  right: 3px;
+}
